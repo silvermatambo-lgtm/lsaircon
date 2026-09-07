@@ -9,7 +9,7 @@ window.SITE = {
   email: "",
   website: "",
   address: "Cape Town, Western Cape, South Africa",
-  logo: "/images/logo-white.jpg?v=eta-white-20260907-5",
+  logo: "/images/eta-logo-final.jpg?v=eta-final-20260907-1",
   colors: { primary: "#0a3152", secondary: "#2196e8", accent: "#55b9f3", dark: "#061b35" },
   nav: [
     ["Home","/"],["About","/about.html"],["Services","/services.html"],["Gallery","/gallery.html"],["Contact","/contact.html"]
