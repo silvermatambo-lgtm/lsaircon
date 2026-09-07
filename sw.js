@@ -1,5 +1,5 @@
-const CACHE = "lsaircon-v1";
-const CORE = ["/", "/about.html", "/services.html", "/gallery.html", "/contact.html", "/manifest.webmanifest"];
+const CACHE = "lsaircon-v3-branding";
+const CORE = ["/", "/about.html", "/services.html", "/gallery.html", "/contact.html", "/manifest.webmanifest", "/images/logo.png", "/assets/style.css", "/assets/redesign.css", "/assets/identity.css"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
