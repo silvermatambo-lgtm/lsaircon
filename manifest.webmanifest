@@ -9,6 +9,6 @@
   "background_color": "#ffffff",
   "theme_color": "#071c31",
   "icons": [
-    {"src":"/images/logo.png?v=eta-20260907-2","sizes":"any","type":"image/png","purpose":"any"}
+    {"src":"/images/eta-app-icon.svg?v=eta-20260907-3","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }
