@@ -1,5 +1,5 @@
-const CACHE = "lsaircon-v4-logo-fix";
-const CORE = ["/", "/about.html", "/services.html", "/gallery.html", "/contact.html", "/manifest.webmanifest", "/images/eta-logo-web.svg", "/images/eta-app-icon.svg", "/assets/style.css", "/assets/redesign.css", "/assets/identity.css"];
+const CACHE = "lsaircon-v5-exact-logo";
+const CORE = ["/", "/about.html", "/services.html", "/gallery.html", "/contact.html", "/manifest.webmanifest", "/images/logo.png", "/images/eta-app-icon.svg", "/assets/style.css", "/assets/redesign.css", "/assets/identity.css"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
