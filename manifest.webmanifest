@@ -1,25 +1,15 @@
 {
-  "name": "LS Aircon Plumb (Pty) Ltd",
-  "short_name": "LS Aircon",
-  "description": "Residential and commercial air-conditioning and refrigeration supply, installation, preventative maintenance and repairs.",
+  "name": "ETA Aircon Services",
+  "short_name": "ETA Aircon",
+  "description": "Professional air-conditioning supply, installation, preventative maintenance, diagnostics and repairs across Cape Town and the Western Cape.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#ffffff",
-  "theme_color": "#075bc7",
+  "theme_color": "#0a3152",
   "icons": [
-    {
-      "src": "/icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ]
 }
